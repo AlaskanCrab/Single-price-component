@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: var(--Light-Gray);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+.mainContainer {
+  border: none;
+  height: 500px;
+  width: 650px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+.whiteContainer {
+  height: 50%;
+  background-color: white;
+  padding: 40px;
+}
+.bottonContainers {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.montlyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--Cyan);
+  width: 50%;
+}
+.whyContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px 0px 0px 35px;
+  background-color: hsl(179, 49%, 50%);
+  width: 50%;
+}
+#join {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--Cyan);
+}
+#moneyBack {
+  margin-top: 26px;
+  -webkit-text-stroke: 5% hsl(71, 73%, 54%);
+  font-size: 20px;
+  color: var(--Bright-Yellow);
+  font-weight: 700;
+}
+#gain {
+  color: var(--Grayish-Blue);
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#montlySub {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+}
+#priceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -0px 20px 0px -60px;
+}
+#price {
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+}
+#per {
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(179, 59%, 65%);
+  margin-left: 15px;
+}
+#full {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+button {
+  color: white;
+  margin-top: 25px;
+  padding: 15px 90px;
+  background-color: var(--Bright-Yellow);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+}
+button:hover {
+  background-color: hsl(71, 64%, 52%);
+}
+button:active {
+  scale: 0.95;
+}
+
+#why {
+  color: white;
+  margin: -50px 0px 20px 0px;
+}
+#tutorial {
+  font-size: 14px;
+  color: hsl(179, 100%, 80%);
+  line-height: 19px;
+}
